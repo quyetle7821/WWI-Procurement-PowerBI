@@ -74,12 +74,13 @@ Tools Used: Power BI (Power Query, DAX)
 ### 2️⃣ Define point of view 
    <img width="1593" height="873" alt="image" src="https://github.com/user-attachments/assets/9c83ece4-4036-4173-af2a-c4cd91c88d8f" />
 
-   <img width="1597" height="867" alt="image" src="https://github.com/user-attachments/assets/2ec56b51-4e2b-402b-a24b-4a1a44be66f9" />
+  <img width="1100" height="616" alt="image" src="https://github.com/user-attachments/assets/a8d231db-bb52-4201-ba48-030ab9caddf0" />
+
 
 
 ### 3️⃣ Ideate  
 
-  <img width="1604" height="877" alt="image" src="https://github.com/user-attachments/assets/f07c7324-6465-40f7-ad6b-b44cade3eafa" />
+  <img width="1103" height="617" alt="image" src="https://github.com/user-attachments/assets/aea84edb-03d6-4513-a4ff-0596a93b1216" />
 
   <img width="1579" height="873" alt="image" src="https://github.com/user-attachments/assets/ad847046-a535-42fe-8454-2ab7c92c29dc" />
 
