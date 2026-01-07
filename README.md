@@ -91,7 +91,7 @@ This part is in the dashboard
 
 ### 1️⃣ Spend Overview
 
-<img width="1247" height="689" alt="image" src="https://github.com/user-attachments/assets/527e7dc8-b95c-4db9-9d0b-c3a0e6a1e274" />
+<img width="1204" height="672" alt="image" src="https://github.com/user-attachments/assets/983ee07f-c287-40dd-967b-8455bf9b7ab5" />
 
 ### 📌 Key Findings : 
 
@@ -141,40 +141,42 @@ This part is in the dashboard
 
 ### 2️⃣ Units Price Basics
 
-<img width="1236" height="701" alt="image" src="https://github.com/user-attachments/assets/a915f65f-ad10-4e0e-b56c-ff36f02d3028" />
+<img width="1208" height="674" alt="image" src="https://github.com/user-attachments/assets/7979edda-c393-457b-a2cd-2ed1635f644e" />
+
 
 ### 📌 Key Findings : 
 **1. Average Unit Price Level (Baseline)**
 
 - The dashboard shows an overall **Avg Unit Price ~15.55** (top KPI).
-- This provides a baseline to benchmark suppliers/SKUs and identify overpay areas.
+- This baseline supports supplier/SKU benchmarking and helps spot **pricing anomalies**.
 
--> **Pricing baseline is stable**, enabling consistent supplier/SKU comparisons.
+-> **Stable baseline pricin**g enables consistent supplier/SKU comparisons.
 
 **2. Ordered Quantity vs Average Price (Demand vs Price Behavior)**
 
 - The combo chart indicates **ordered quantity trends upward over time**, while **average** unit price stays **relatively flat/slightly declining** across the period.
-- This suggests volume growth without proportional price inflation.
+- This indicates demand changes are not driven by broad price inflation.
 
--> **Volume increased while pricing stayed controlled**, which may reflect improved purchasing leverage or stable market pricing.
+-> **Volume shifts drive purchasing outcomes**, while pricing remains generally controlled.
 
 **3. Month-over-Month Price Change (Volatility & Spikes)**
 
 - **The MoM** chart highlights clear price fluctuations, including **a major positive spike (~+27.9%)** in one month, followed by multiple negative months.
-- Several consecutive decreases later in the year suggest a correction after the spike.
+- The decline afterward suggests a **correction** after the spike month.
 
--> **Prices are generally stable but can spike sharply**, so exception monitoring is necessary.
+-> Prices are mostly stable, but **sharp spikes happen**, so **exception monitoring** is necessary.
 
 **4. Price Gap / Best Price Benchmarking (Overpay Signal)**
 
-- The presence of **a Price Gap** KPI and the table comparing **Avg Unit Price vs Best Unit Price (by SKU)** indicates systematic benchmarking.
-- Rows where Avg > Best imply **potential overpay**, especially if they occur on high-volume SKUs.
+- The presence of a **Price Gap KPI** and the table comparing **Avg Unit Price vs Best Unit Price (by SKU)** supports systematic benchmarking.
+- When **Avg > Best**, it signals **potential overpay**, especially for high-volume SKUs.
 
 -> **Overpay opportunities exist at SKU level**, and prioritization should be volume-weighted.
 
 **5. Potential Savings Concentration (Supplier Focus)**
 
-- The “Potential Savings by Supplier” treemap shows savings heavily concentrated in the **top suppliers (notably Fabrikam and Litware).**
+- The new “**Top Suppliers by Potential Savings**” bar chart shows savings are heavily concentrated in a few suppliers—**Fabrikam, Inc**. dominates, followed by **Litware, Inc**.
+- Most remaining suppliers contribute minimal savings.
 
 -> **Negotiation impact is concentrated**: focusing on 1–2 major suppliers can unlock most savings.
 
@@ -183,11 +185,12 @@ This part is in the dashboard
 - In the detail table, some suppliers show **Best Unit Price (by SKU) = 0**, which likely means missing data, unhandled blanks, or a measure logic issue.
 - If not fixed, savings and price gap calculations can be distorted.
 
--> **Fix BLANK/0 handling for Best Price** to make savings estimates reliable.
+-> **Handle BLANK/0 properly** for Best Price to keep savings estimates reliable.
 
 ### 3️⃣ Supplier Scorecard
 
-<img width="1245" height="688" alt="image" src="https://github.com/user-attachments/assets/89d9a6ea-2ab7-450a-9f56-d8f26ccdd65e" />
+<img width="1227" height="696" alt="image" src="https://github.com/user-attachments/assets/4d2bbb9b-f763-4571-83d2-0ead5d82f6df" />
+
 
 ### 📌 Key Findings : 
 
@@ -235,7 +238,8 @@ This part is in the dashboard
 
 ### 4️⃣ Lead Time & Delivery
 
-<img width="1218" height="688" alt="image" src="https://github.com/user-attachments/assets/79aa9398-20f5-4fbe-9208-1972082eb5c1" />
+<img width="1222" height="686" alt="image" src="https://github.com/user-attachments/assets/67507547-9627-4cc6-9b5b-14a37af496a5" />
+
 
 ### 📌 Key Findings : 
 
