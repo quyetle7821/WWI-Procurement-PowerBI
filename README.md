@@ -197,44 +197,44 @@ This part is in the dashboard
 **1. Supplier Coverage and Overall Performance Snapshot**
 
 - The scorecard covers **28 suppliers**, with total spend around **$2.17B** and overall **Avg Unit Price ~15.55.**
-- The overall **Received / On-time rate** is **~99.7%**, indicating strong delivery reliability at the portfolio level.
+- The overall **On-time / Received Rate** = **99.75%**, indicating strong delivery reliability at the portfolio level.
 
--> At a high level, **supplier delivery performance is excellent**, so the biggest value likely comes from **cost/pricing optimization** rather than service recovery.
+-> At a high level, service performance is excellent; the biggest upside comes **from cost optimization and supplier governance**, not delivery recovery.
 
-**2. Spend Concentration Across Suppliers**
+**2. Spend Concentration Across Suppliers (Top Spend Risk)**
 
-- The donut chart and the supplier table show spend is highly concentrated in the top suppliers **(notably Fabrikam, Inc. and Litware, Inc.).**
-- A small number of suppliers drive the majority of total spend.
+- The **Top N spend bar chart** shows spend is heavily concentrated: **Fabrikam, Inc. dominates,** followed by **Litware, Inc.**
+- This confirms a classic **80/20 structure** where a few suppliers drive most purchasing impact.
 
--> **Supplier concentration remains a key risk and leverage point**—negotiations and governance should focus on the top spend suppliers first.
+-> Supplier concentration is a key leverage and risk point—prioritize **top spend suppliers** for negotiation and control first.
 
-**3. Price Index (Best) and Price Gap by Supplier (Cost Competitiveness)**
+**3. Supplier Value Map: Price vs Service Trade-off**
 
-- The “Supplier Price Index (Best)” bar chart benchmarks each supplier against **the best available price.**
-- Suppliers with weaker indices (further from “best”) represent higher overpay potential, especially if they also carry large spend.
+- The value map positions suppliers by **Received Rate (service)** vs **Supplier Price Index (cost)**, with bubble size reflecting **spend impact**.
+- Suppliers in the “high service + good price” zone are strategic partners, while “high service but weak price” suppliers are prime negotiation targets.
 
--> **Not all high-spend suppliers are cost-efficient**; combine **Spend × Price Index** to prioritize negotiation targets.
+-> This provides an executive-level view to **balance cost and reliability**, not just chase the lowest price.
 
-**4. Value Map: Price vs Service Trade-off**
+**4. Spend Share View**
 
-- The value map positions suppliers by **Received Rate (service)** vs **Supplier Price Index (cost)**, with bubble size reflecting impact (spend).
-- Suppliers in the “high service + good price” zone are strategic partners; those with “high service but poor price” are prime negotiation candidates.
+- The donut chart reinforces spend concentration and helps quantify **share of spend** by supplier.
+- It supports quick portfolio mix checks to see whether the business is overly dependent on one supplier.
 
--> This chart is a strong executive tool to **balance cost and reliability**, not just chase the lowest price.
+-> Use spend-share monitoring to manage **dependency risk** and ensure sourcing resilience.
 
 **5. Supplier-Level Comparison Table (Decision-Ready Drill)**
-
+  
 - The table consolidates **Total Spend, Avg Unit Price, Best Spend, and Received Rate** per supplier.
 - This enables fast triage: identify suppliers with **high spend + high avg price + low best spend share.**
 
--> The report is **actionable**, because it links benchmarking metrics to each supplier in one place.
+-> The report is actionable because it links **supplier spend**, **price benchmarks**, **and service reliability** in one view.
 
 **6. Metric Definition / Data Quality Watch-outs**
 
-- Ensure “On-time % / Received Rate” is clearly defined (e.g., **Received Qty / Ordered Qty** or an on-time receipt flag).
-- Also validate “Best Spend” and “Price Index (Best)” logic (BLANK/0 handling), since these directly affect prioritization.
+- Ensure “**On-time % / Received Rate**” is clearly defined (e.g., **Received Qty / Ordered Qty** or an on-time receipt flag).
+- Validate **Best Spend** and **Price Index** logic (BLANK/0 handling) to avoid distorted prioritization.
 
--> **Clear metric definitions are critical**—these KPIs drive negotiation and vendor strategy decisions.
+-> Clear metric definitions are critical—these KPIs directly drive **supplier strategy and negotiation decisions**.
 
 ### 4️⃣ Lead Time & Delivery
 
